@@ -1,0 +1,613 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bg",
+				"bg+\tbackground: ${1:#fff} url(${2}) ${3:0} ${4:0} ${5:no-repeat};"
+			],
+			[
+				"font",
+				"font-awesome.css"
+			],
+			[
+				"foo",
+				"footer__logo"
+			],
+			[
+				"y",
+				"yourlogo.png\tw:185 h:25"
+			],
+			[
+				"feed",
+				"feedback__form"
+			],
+			[
+				"fle",
+				"flexflow\tFlexbox - flex-flow: row nowrap;"
+			],
+			[
+				"ralewa",
+				"raleway-regular"
+			],
+			[
+				"fee",
+				"feedback__title-header"
+			],
+			[
+				"ralew",
+				"raleway-heavy"
+			],
+			[
+				"feedback",
+				"feedback__form"
+			],
+			[
+				"rale",
+				"raleway-regular"
+			],
+			[
+				"ou",
+				"our_team__member"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"ga",
+				"gallery__imgs"
+			],
+			[
+				"gall",
+				"gallery__menu"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"ral",
+				"raleway-regular"
+			],
+			[
+				"our",
+				"our-services__name"
+			],
+			[
+				"hero",
+				"hero__slogan-img"
+			],
+			[
+				"mixi",
+				"_mixins.scss"
+			],
+			[
+				"bsh",
+				"bxsh+\tbox-shadow+"
+			],
+			[
+				"time",
+				"timedelta\t(class)"
+			],
+			[
+				"date",
+				"datetime〔module〕"
+			],
+			[
+				"enu",
+				"enumerate\t(class)"
+			],
+			[
+				"ev",
+				"evklid〔function〕"
+			],
+			[
+				"in",
+				"input〔function〕"
+			],
+			[
+				"wri",
+				"write\t(function)"
+			],
+			[
+				"resu",
+				"resultQ〔variable〕"
+			],
+			[
+				"ma",
+				"max〔function〕"
+			],
+			[
+				"range",
+				"range\t(function)"
+			],
+			[
+				"s",
+				"split\t(function)"
+			],
+			[
+				"te",
+				"test\t(statement)"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"fu",
+				"function with name"
+			],
+			[
+				"get",
+				"getDate()\tDate"
+			],
+			[
+				"func",
+				"function with name"
+			],
+			[
+				"getDa",
+				"getDay()\tDate"
+			],
+			[
+				"for",
+				"for in"
+			],
+			[
+				"funct",
+				"function without name"
+			],
+			[
+				"indexOf",
+				"indexOf(searchElement)\tArray"
+			],
+			[
+				"alert",
+				"alert(message)\tWindow"
+			],
+			[
+				"math",
+				"Math.pow(base, exponent)\tMath"
+			],
+			[
+				"load",
+				"DOMContentLoaded\tEvent"
+			],
+			[
+				"fun",
+				"function without name"
+			],
+			[
+				"child",
+				"appendChild(aChild)\tNode"
+			],
+			[
+				"getAt",
+				"getAttribute(attributeName)\tElement"
+			],
+			[
+				"nod",
+				"nodeType\tNode"
+			],
+			[
+				"getEle",
+				"getElementById(id)\tElement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/gulp-lesson-master/package.json",
+			"settings":
+			{
+				"buffer_size": 260,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 294.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 454.0
+	},
+	"console":
+	{
+		"height": 220.0,
+		"history":
+		[
+			"git config --global user.name \"Pavlo Serediuk\"",
+			"git init",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Work/Default/js/script.js",
+		"/D/Work/Default/index.html",
+		"/D/helloIdiot/Steam/userdata/151184067/730/local/cfg/config.cfg",
+		"/D/helloIdiot/Steam/userdata/119130562/730/local/cfg/romcak.cfg",
+		"/D/PASHA DOWN/romcak.cfg",
+		"/D/Work/Default/css/main.scss",
+		"/D/Work/Posh/css/main.scss",
+		"/D/Work/Posh/index.html",
+		"/D/Work/Posh/css/fonts.scss",
+		"/D/Work/Posh/fonts/Butler_Webfont/stylesheet.css",
+		"/C/Users/User/AppData/Local/Temp/7zOCEE805FA/stylesheet.css",
+		"/D/Work/Posh/posh.sublime-workspace",
+		"/D/Work/Default/index.sublime-workspace",
+		"/D/Work/Test/index.html",
+		"/D/Work/Test/css/main.css",
+		"/D/Work/Test/js/script.js",
+		"/D/Work/Posh/css/main.css",
+		"/D/Work/Posh/css/font-awesome.scss",
+		"/D/Work/Posh/css/style.css",
+		"/D/Work/Default/css/main-dist.css",
+		"/D/Work/Agency/css/_misc/_mixins.scss",
+		"/D/Work/Agency/css/_misc/_fonts.scss",
+		"/D/Work/Agency/css/_misc/_normalize.scss",
+		"/D/Work/Agency/css/_misc/_adjustment.scss",
+		"/D/Work/Agency/css/main.scss",
+		"/D/Work/Agency/index.html",
+		"/D/Work/Agency/css/main.css",
+		"/D/Work/Webpaint/main.css",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/test/index.html",
+		"/D/uTorrent/Success/Web-разработка для начинающих/04 - CSS#1/code/style.css",
+		"/C/test/script.js",
+		"/D/itvdn/itvdn-landing/README.md",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/User/Desktop/wifi/PuTTY PORTABLE/wireless",
+		"/D/Games/LOL/Config/game.cfg",
+		"/D/helloIdiot/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/autoexec.cfg",
+		"/D/helloIdiot/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/movie200fps.cfg",
+		"/D/helloIdiot/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/autoexec2.cfg",
+		"/D/helloIdiot/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/training.cfg",
+		"/D/Games/LOL/RADS/system/user.cfg",
+		"/D/Games/osulazer/packages/osulazer-2017.407.0-full.nupkg",
+		"/D/Games/osulazer/packages/.betaId",
+		"/D/Games/osulazer/packages/RELEASES",
+		"/D/Games/osulazer/app-2017.407.0/ManagedBass.Fx.dll.config",
+		"/D/Games/osulazer/app-2017.407.0/ManagedBass.dll.config",
+		"/D/Games/osulazer/app-2017.407.0/OpenTK.dll.config",
+		"/D/Games/osulazer/app-2017.407.0/osu!.exe.config",
+		"/D/Work/Agency/css/_misc/_fonts.css",
+		"/D/Work/Agency/fonts/_fonts.scss",
+		"/D/Work/Agency/fonts/stylesheet.css",
+		"/C/Users/User/TIMER Jo-o-o-o-/settings/settings.xml",
+		"/D/Work/Agency/css/_misc/fonts/stylesheet.css",
+		"/D/pyTest/test.py",
+		"/D/pyTest/910.py",
+		"/D/Work/index.html",
+		"/D/Work/Default/css/_misc/_mixins.scss",
+		"/D/Work/Default/css/main.css",
+		"/D/Work/Webpaint/index.html",
+		"/D/Work/Default/css/_misc/mixins.scss",
+		"/D/Work/Default/css/_misc/sdadasd.css",
+		"/D/Work/Default/css/_misc/_adjustment.scss",
+		"/D/!back_to_programming/Working template/index.html",
+		"/D/!back_to_programming/Working template/welcome.html",
+		"/D/Work/Test/css/adjustment.css",
+		"/D/Games/osu/osu!.User.cfg",
+		"/D/pyTest/input.txt",
+		"/D/pyTest/output.txt",
+		"/D/Games/osu/osu!.cfg",
+		"/D/Just Example/index.html",
+		"/D/Games/GTA San Andreas MultiPlayer/CLEO/zonetexts (1).cs",
+		"/D/pyTest/__pycache__/zno.py",
+		"/D/pyTest/cantThinkNoMore.py",
+		"/D/pyTest/module.py",
+		"/D/pyTest/olimpiada.py",
+		"/D/pyTest/osu.py",
+		"/D/pyTest/914.py",
+		"/D/pyTest/middleNumber.py",
+		"/D/pyTest/forStuff.py",
+		"/D/Dropbox/Python/notBiggerThan2,5.py",
+		"/D/pyTest/numberOfFlat.py",
+		"/D/pyTest/firstOrLast.py",
+		"/D/pyTest/for_in_elem_index.py",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/C/Users/User/Pictures/for ppt/Сім нових чудес світу",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/SublimePythonIDE/SublimePython.sublime-settings",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/Just Example/script.js",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/jenjuk.txt",
+		"/D/Just Example/css/normalize.css",
+		"/D/Just Example/module",
+		"/D/Just Example/module/module.html",
+		"/D/roma.txt",
+		"/X/EFI/CLOVER/.DS_Store",
+		"/X/EFI/CLOVER/kexts/10.11/.DS_Store",
+		"/X/EFI/CLOVER/kexts/10.11/._.DS_Store",
+		"/D/Just Example/css/style.css",
+		"/D/Just Example/css/adjustment.css",
+		"/C/Users/User/AppData/Local/Temp/7zOCCC82D34/mixins.scss",
+		"/D/Work/Bakery/index.html",
+		"/D/Work/Bakery/css/main.scss",
+		"/C/Users/User/Desktop/for-school.txt",
+		"/D/Work/Default/css/_narco.scss",
+		"/D/Work/Default/css/_misc/adjustment.scss",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/FileBrowser/Default.sublime-keymap",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/dired.sublime-settings",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/FileBrowser/dired.sublime-settings",
+		"/D/Work/Default/css/_misc/normalize.scss",
+		"/D/Work/Fun/css/main.scss",
+		"/D/Work/Fun/css/main.css",
+		"/D/Work/Fun/index.html",
+		"/C/Users/User/AppData/Local/Temp/7zO0C0AD227/adjustment.css",
+		"/C/Users/User/AppData/Local/Temp/7zO0C0B6557/normalize.css",
+		"/C/Users/User/AppData/Local/Temp/7zO0C0F3077/main.css",
+		"/C/Users/User/AppData/Local/Temp/7zO0C0DBADF/main.css",
+		"/D/Work/bootstrap-3.3.7-dist/index-default.html",
+		"/D/Work/bootstrap-3.3.7-dist/index.html",
+		"/D/Work/Flex-test/index.html",
+		"/D/Work/Templates-bootstrap/responsive-navigation-alpha.html",
+		"/C/Users/User/Downloads/index.html",
+		"/D/Work/Webpaint/.htaccess",
+		"/D/123.html",
+		"/C/Users/User/Downloads/Slider/style.css",
+		"/C/Users/User/Desktop/1.css",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"a",
+			"'",
+			"use",
+			"butler_bold",
+			" >",
+			"\">",
+			"div",
+			"twitter",
+			"\"><",
+			"1170",
+			"../../",
+			"currentCount",
+			"autocomplete",
+			"}\n",
+			"фяфяф",
+			"><",
+			"\"command\": \"dired",
+			"80px",
+			"h4"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"><",
+			"div"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/gulp-lesson-master/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.485020242915,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "posh.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 131.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

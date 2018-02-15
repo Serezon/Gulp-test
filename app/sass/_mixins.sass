@@ -1,0 +1,11 @@
+@mixin inlineblock($valign: top) 
+	display: inline-block
+	vertical-align: $valign
+
+
+%clearfix 
+	&:after 
+		content: ""
+		display: block
+		clear: both
+	

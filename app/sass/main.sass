@@ -1,0 +1,138 @@
+@import "fonts.sass"
+@import "mixins.sass"
+
+.wrapper 
+	width: 1170px
+	margin: 0 auto
+
+
+header 
+	min-width: 1170px
+	height: 846px
+	background: url('../img/averie-woodard-111823.jpg') center 0 no-repeat
+	background-size: cover
+	color: #fff
+
+
+.header__contacts 
+	width: 1170px
+	padding: 23px 0
+	margin-bottom: 45px
+
+
+.header__contact 
+	float: left
+
+
+.header__contact * 
+	display: inline-block
+	opacity: 0.8
+	color: #ffffff
+
+
+.header__contact-tel 
+	margin-right: 30px
+
+
+.header__contact div 
+	font-family: Lato
+
+
+.header__socials 
+	float: right
+	display: flex
+	width: 171px
+	justify-content: space-between
+
+
+.header__socials i 
+		color: #fff
+
+
+header .wrapper:after 
+	content: ""
+	display: block
+	position: absolute
+	top: 60px
+	left: 0
+	height: 1px
+	min-width: 1170px
+	width: 100%
+	background-color: #fff
+	opacity: 0.3
+
+
+.header__menu 
+	float: right
+	display: flex
+	width: 555px
+	justify-content: space-between
+
+
+.header__menu-item 
+	font-family: Lato
+	font-size: 14px
+	font-weight: 500
+	text-transform: uppercase
+	padding-top: 45px
+	margin-top: -31px
+	border-top: 2px solid transparent
+	color: #fff
+	&:hover 
+		border-color: #d6a862
+	
+
+
+.header__title 
+	margin-bottom: 45px
+
+
+.header__title-head 
+	margin-top: 260px
+	text-align: center
+	color: #ffffff
+	font-family: 'butlermedium', Arial, sans-serif
+	font-size: 64px
+	font-weight: 500
+	margin-bottom: 15px
+	& span 
+		color: #e8be7b
+	
+
+
+.header__title-desc 
+	color: #ffffff
+	font-family: Lato, Arial, sans-serif
+	font-size: 16px
+	font-weight: 400
+	text-align: center
+
+
+.header__buttons 
+	display: flex
+	justify-content: center
+
+
+.header__button 
+	width: 180px
+	height: 48px
+	color: #ffffff
+	font-family: Lato, Arial, sans-serif
+	font-size: 14px
+	font-weight: 500
+	text-transform: uppercase	
+	margin: 0 15px
+	text-align: center
+	line-height: 45px
+
+
+.header__button:first-child 
+	border: 1px solid #fff
+
+
+.header__button:last-child 
+	background-color: #e8be7b
+	& i
+		padding-right: 5px
+		line-height: 45px
+	
