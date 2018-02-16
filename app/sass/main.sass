@@ -1,5 +1,6 @@
-@import "fonts.sass"
-@import "mixins.sass"
+@import "fonts"
+@import "mixins"
+@import "adjustment"
 
 .wrapper 
 	width: 1170px
@@ -49,7 +50,7 @@ header
 		color: #fff
 
 
-header .wrapper:after 
+header:after 
 	content: ""
 	display: block
 	position: absolute
@@ -78,6 +79,7 @@ header .wrapper:after
 	margin-top: -31px
 	border-top: 2px solid transparent
 	color: #fff
+	transition: .3s
 	&:hover 
 		border-color: #d6a862
 	
