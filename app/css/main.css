@@ -299,7 +299,8 @@ header:after {
   position: relative;
   margin-right: 70px;
   -webkit-box-shadow: 10px 10px 0px 0px #e8be7b;
-          box-shadow: 10px 10px 0px 0px #e8be7b; }
+          box-shadow: 10px 10px 0px 0px #e8be7b;
+  margin-bottom: 120px; }
 
 .our-services__text {
   padding-top: 75px; }
@@ -331,3 +332,10 @@ header:after {
     height: 11px;
     background: url("../img/icons/text-arrow.svg") 0 bottom no-repeat;
     margin-left: 20px; }
+
+.gallery {
+  height: 800px;
+  width: 100%;
+  background: url(../img/gallery-img.jpg) center 0 no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover; }
