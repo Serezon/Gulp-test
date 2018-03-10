@@ -1,18 +1,14 @@
-$(function(){
-
-	var hf = function(){
-		var h_header = $('header').height();
-		var h_footer = $('footer').height();
-		$('.content').css({
-			'paddingTop': h_header,
-			'paddingBottom': h_footer
+// Gallery initialization
+jQuery(document).ready(function($) {
+			$('.gallery').unslider();
 		});
-	}
-
-	$(window).bind('load resize', hf);
-
-});
-
    
-
+// Gallery config
+$('.gallery').unslider({
+	nav: false,
+	arrows: {
+		prev: '<a class="unslider-arrow prev"></a>',
+		next: '<a class="unslider-arrow next"></a>'
+	}
+});
 
