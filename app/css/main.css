@@ -220,15 +220,19 @@ header:after {
   text-align: center;
   margin-bottom: 77px; }
 
-.our-services__title {
+h3 {
   color: #3a3a3a;
   font-family: butlermedium, Arial, sans-serif;
   font-size: 48px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  text-align: center; }
 
-.our-services__desc {
+p {
   color: #3a3a3a;
   font-family: Lato, Arial, sans-serif; }
+
+.Channel__header p {
+  text-align: center; }
 
 .our-services__list {
   display: -webkit-box;
@@ -418,7 +422,8 @@ header:after {
   margin-bottom: 18px; }
 
 .blog__list {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 50px; }
 
 .blog__item {
   display: inline-block;
@@ -434,12 +439,15 @@ header:after {
   .blog__link:hover {
     color: #e8be7b; }
 
-.blog__img_txt {
-  background: #f7f7f7; }
+.all__blog {
+  font-size: 0; }
 
 .blog__one {
+  vertical-align: top;
   display: inline-block;
-  margin-right: 46px; }
+  width: 370px;
+  height: 412px;
+  margin-right: 10px; }
   .blog__one:last-child {
     margin-right: 0px; }
 
@@ -452,3 +460,7 @@ header:after {
   color: #757575;
   font-family: butlermedium, Arial, sans-serif;
   font-size: 16px; }
+
+.blog__too {
+  width: 770px;
+  height: 412px; }
