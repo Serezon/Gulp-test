@@ -6,6 +6,17 @@
 	width: 1170px
 	margin: 0 auto
 
+h3
+	color: #3a3a3a
+	font-family: butlermedium, Arial, sans-serif
+	font-size: 48px
+	margin-bottom: 15px
+	text-align: center
+
+p
+	color: #3a3a3a
+	font-family: Lato, Arial, sans-serif
+
 // Header
 header 
 	min-width: 1170px
@@ -120,9 +131,10 @@ header:after
 	justify-content: center
 
 
-.header__button 
+.button
 	width: 180px
 	height: 48px
+	display: block
 	color: #ffffff
 	font-family: Lato, Arial, sans-serif
 	font-size: 14px
@@ -131,13 +143,14 @@ header:after
 	margin: 0 15px
 	text-align: center
 	line-height: 45px
+	border: none
 
 
-.header__button:first-child 
+.button:first-child 
 	border: 1px solid #fff
 
 
-.header__button:last-child 
+.button-filled
 	background-color: #e8be7b
 	& i
 		padding-right: 5px
@@ -153,17 +166,6 @@ header:after
 	margin-top: 120px
 	text-align: center
 	margin-bottom: 77px
-
-h3
-	color: #3a3a3a
-	font-family: butlermedium, Arial, sans-serif
-	font-size: 48px
-	margin-bottom: 15px
-	text-align: center
-
-p
-	color: #3a3a3a
-	font-family: Lato, Arial, sans-serif
 
 .Channel__header p
 	text-align: center
@@ -325,20 +327,33 @@ p
 
 //Channel__block
 
-.Channel__title
+.channel__header
 	margin-top: 120px
-  margin-bottom: 31px
-	color: #3a3a3a
-	font-family: butlermedium, Arial, sans-serif
-	font-size: 48px
-	margin-bottom: 15px
 	text-align: center
+	margin-bottom: 60px
 
-.Channel__desc
-	color: #3a3a3a
-	font-size: 16px
-	text-align: center
-  font-family: Lato , Arial, sans-serif
+.channel__title
+  color: #3a3a3a
+  font-family: butlermedium, Arial, sans-serif
+  font-size: 48px
+
+.channel__video
+	position: relative
+	margin: 0 auto
+	width: 640px
+	iframe
+		margin-bottom: 40px
+	button
+		margin: 0 auto 120px
+
+.video__preview
+	display: block
+	position: absolute
+	width: 640px
+	height: 360px
+	background: url("../img/channel-video-preview.jpg")
+	z-index: 999
+	border: none
 
   // BLOG latest block
 .latest__blog

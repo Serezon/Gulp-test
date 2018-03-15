@@ -12,3 +12,12 @@ $('.gallery').unslider({
 	}
 });
 
+//Video
+
+$('.video__preview').click(function() {
+	$(this).css('display','none');
+});
+
+$('.button').click(function() {
+	$('.video__preview').css('display','block');
+});

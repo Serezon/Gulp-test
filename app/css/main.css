@@ -79,11 +79,23 @@ a {
   width: 1170px;
   margin: 0 auto; }
 
+h3 {
+  color: #3a3a3a;
+  font-family: butlermedium, Arial, sans-serif;
+  font-size: 48px;
+  margin-bottom: 15px;
+  text-align: center; }
+
+p {
+  color: #3a3a3a;
+  font-family: Lato, Arial, sans-serif; }
+
 header {
   min-width: 1170px;
   height: 846px;
   background: url("../img/averie-woodard-111823.jpg") center 0 no-repeat;
-  background-size: cover;
+  -webkit-background-size: cover;
+          background-size: cover;
   color: #fff; }
 
 .header__contacts {
@@ -114,12 +126,14 @@ header {
 .header__socials {
   float: right;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 171px;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .header__socials i {
   color: #fff; }
@@ -139,12 +153,14 @@ header:after {
 .header__menu {
   float: right;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 555px;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .header__menu-item {
   font-family: Lato;
@@ -184,15 +200,18 @@ header:after {
 
 .header__buttons {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
-.header__button {
+.button {
   width: 180px;
   height: 48px;
+  display: block;
   color: #ffffff;
   font-family: Lato, Arial, sans-serif;
   font-size: 14px;
@@ -200,47 +219,40 @@ header:after {
   text-transform: uppercase;
   margin: 0 15px;
   text-align: center;
-  line-height: 45px; }
+  line-height: 45px;
+  border: none; }
 
-.header__button:first-child {
+.button:first-child {
   border: 1px solid #fff; }
 
-.header__button:last-child {
+.button-filled {
   background-color: #e8be7b; }
-  .header__button:last-child i {
+  .button-filled i {
     padding-right: 5px;
     line-height: 45px; }
 
 .our-services {
   background: url(../img/our-services.svg) center 0 no-repeat;
-  background-size: 1400px auto; }
+  -webkit-background-size: 1400px auto;
+          background-size: 1400px auto; }
 
 .our-services__header {
   margin-top: 120px;
   text-align: center;
   margin-bottom: 77px; }
 
-h3 {
-  color: #3a3a3a;
-  font-family: butlermedium, Arial, sans-serif;
-  font-size: 48px;
-  margin-bottom: 15px;
-  text-align: center; }
-
-p {
-  color: #3a3a3a;
-  font-family: Lato, Arial, sans-serif; }
-
 .Channel__header p {
   text-align: center; }
 
 .our-services__list {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 60px; }
 
 .our-services__item {
@@ -256,7 +268,7 @@ p {
     margin: 48px auto 40px; }
   .our-services__item:hover {
     -webkit-box-shadow: 2px 2px 16px rgba(32, 32, 32, 0.1);
-    box-shadow: 2px 2px 16px rgba(32, 32, 32, 0.1);
+            box-shadow: 2px 2px 16px rgba(32, 32, 32, 0.1);
     background-color: #ffffff; }
 
 .our-services__link {
@@ -293,7 +305,7 @@ p {
   position: relative;
   margin-right: 70px;
   -webkit-box-shadow: 10px 10px 0px 0px #e8be7b;
-  box-shadow: 10px 10px 0px 0px #e8be7b;
+          box-shadow: 10px 10px 0px 0px #e8be7b;
   margin-bottom: 120px; }
 
 .our-services__text {
@@ -342,7 +354,7 @@ p {
   right: 0;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   line-height: 140px;
   font-size: 0;
   color: #3a3a3a; }
@@ -375,7 +387,8 @@ p {
     width: 100%;
     height: 100%;
     background: url(../img/gallery-img.jpg) center 0 no-repeat;
-    background-size: cover; }
+    -webkit-background-size: cover;
+            background-size: cover; }
 
 .unslider {
   position: relative;
@@ -392,20 +405,33 @@ p {
     right: 100px !important;
     background-image: url(../img/icons/gallery-arrow-next.png); }
 
-.Channel__title {
+.channel__header {
   margin-top: 120px;
-    margin-top-margin-bottom: 31px;
+  text-align: center;
+  margin-bottom: 60px; }
+
+.channel__title {
   color: #3a3a3a;
   font-family: butlermedium, Arial, sans-serif;
-  font-size: 48px;
-  margin-bottom: 15px;
-  text-align: center; }
+  font-size: 48px; }
 
-.Channel__desc {
-  color: #3a3a3a;
-  font-size: 16px;
-  text-align: center;
-    text-align-font-family: Lato , Arial, sans-serif; }
+.channel__video {
+  position: relative;
+  margin: 0 auto;
+  width: 640px; }
+  .channel__video iframe {
+    margin-bottom: 40px; }
+  .channel__video button {
+    margin: 0 auto 120px; }
+
+.video__preview {
+  display: block;
+  position: absolute;
+  width: 640px;
+  height: 360px;
+  background: url("../img/channel-video-preview.jpg");
+  z-index: 999;
+  border: none; }
 
 .latest__blog {
   background-color: #f7f7f7; }
