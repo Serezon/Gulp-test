@@ -374,7 +374,7 @@ header:after
 	text-align: center
 	margin-bottom: 50px
 
-.blog__item
+.blog__list-item
 	display: inline-block
 	margin-right: 46px
 	&:last-child
@@ -387,33 +387,55 @@ header:after
   font-family: Lato, Arial, sans-serif
 	&:hover
 		color: #e8be7b
-// blog img
-.all__blog
-	font-size: 0
-	
 
-.blog__one
-	vertical-align: top
-	display: inline-block
+// Blog "gallery"
+
+.blog
+	font-size: 0
+	display: flex
+	flex-wrap: wrap
+	justify-content: space-between
+	margin-bottom: 60px
+
+.blog__item
 	width: 370px 
-	height: 412px
-	margin-right: 10px
-	&:last-child
-		margin-right: 0px
+	height: 450px
 		
-.blog__hed__txt
+.blog__item-head
+	margin: 30px 0 20px
 	color: #525252
 	font-family: Lato, Arial, sans-serif
 	font-size: 18px
 
-.blog__txt
+.blog__item-text
 	color: #757575
-	font-family: butlermedium, Arial, sans-serif
+	font-family: butlerlight, Arial, sans-serif
 	font-size: 16px
 
-.blog__too
+.blog__item_large
 	width: 770px
-	height: 412px
+
+.blog__item-img_shadow
+	position: relative
+	&:after
+		content: ""
+		display: block
+		position: absolute
+		width: 370px
+		height: 301px
+		background-color: #e8be7b
+		top: 10px
+		left: 10px
+
+.blog__item-head_large
+	width: 500px
+
+.button_color-gray
+	margin: 0 auto
+	color: #525252
+	border: 1px solid #525252
+	margin-bottom: 119px
+
 
 
 // Contact section
@@ -425,17 +447,26 @@ header:after
 .contact__contacts
 	display: flex
 	justify-content: space-around
-	align-items: flex-end
+	margin-bottom: 120px
 
 .contacts__item
-	width: 25%
+	display: flex
+	width: 33%
+	&:nth-child(2)
+		width: 22%
 
 .contacts__img
-	float: left
+	margin-right: 20px
 
 .contacts__header
 	color: #2a2a2a
 	font-family: Lato, Arial, sans-serif
-	font-size: 14px
 	text-transform: uppercase
+
+.contacts__info
+	display: inline-block
+	margin: 0
+	color: #2a2a2a
+	font-family: butlerlight, Arial, sans-serif
+	font-size: 24px
 
