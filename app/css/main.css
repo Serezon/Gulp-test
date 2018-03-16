@@ -490,3 +490,32 @@ header:after {
 .blog__too {
   width: 770px;
   height: 412px; }
+
+.contact__header {
+  margin: 120px 0 60px;
+  text-align: center; }
+
+.contact__contacts {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
+.contacts__item {
+  width: 25%; }
+
+.contacts__img {
+  float: left; }
+
+.contacts__header {
+  color: #2a2a2a;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase; }
