@@ -21,3 +21,14 @@ $('.video__preview').click(function() {
 $('.button').click(function() {
 	$('.video__preview').css('display','block');
 });
+
+
+// Плавный скролл по якорям
+$("a[href*='#']").on("click", function(e){
+        var anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $(anchor.attr('href')).offset().top
+        }, 777);
+        e.preventDefault();
+        return false;
+    });
