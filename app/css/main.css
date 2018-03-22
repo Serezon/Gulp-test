@@ -78,6 +78,9 @@ a {
 .wrapper {
   width: 1170px;
   margin: 0 auto; }
+  .wrapper_extended {
+    width: 1190px;
+    padding: 0 10px; }
 
 h3 {
   color: #3a3a3a;
@@ -499,16 +502,8 @@ header:after {
   width: 770px; }
 
 .blog__item-img_shadow {
-  position: relative; }
-  .blog__item-img_shadow:after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 370px;
-    height: 301px;
-    background-color: #e8be7b;
-    top: 10px;
-    left: 10px; }
+  -webkit-box-shadow: 10px 10px 0px 0px #e8be7b;
+          box-shadow: 10px 10px 0px 0px #e8be7b; }
 
 .blog__item-head_large {
   width: 500px; }

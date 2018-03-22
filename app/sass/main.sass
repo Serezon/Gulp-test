@@ -2,9 +2,15 @@
 @import "mixins"
 @import "adjustment"
 
+$wrapper: 1170px
+
 .wrapper 
-	width: 1170px
+	width: $wrapper
 	margin: 0 auto
+	&_extended
+		width: $wrapper + 20px
+		padding: 0 10px
+
 
 h3
 	color: #3a3a3a
@@ -416,16 +422,7 @@ header:after
 	width: 770px
 
 .blog__item-img_shadow
-	position: relative
-	&:after
-		content: ""
-		display: block
-		position: absolute
-		width: 370px
-		height: 301px
-		background-color: #e8be7b
-		top: 10px
-		left: 10px
+	box-shadow: 10px 10px 0px 0px #e8be7b
 
 .blog__item-head_large
 	width: 500px
