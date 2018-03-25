@@ -1,6 +1,7 @@
 @import "fonts"
 @import "mixins"
 @import "adjustment"
+@import "media-queries"
 
 $wrapper: 1170px
 
@@ -10,7 +11,6 @@ $wrapper: 1170px
 	&_extended
 		width: $wrapper + 20px
 		padding: 0 10px
-
 
 h3
 	color: #3a3a3a
@@ -25,7 +25,7 @@ p
 
 // Header
 header 
-	min-width: 1170px
+	min-width: $wrapper
 	height: 846px
 	background: url('../img/averie-woodard-111823.jpg') center 0 no-repeat
 	background-size: cover
@@ -33,7 +33,7 @@ header
 
 
 .header__contacts 
-	width: 1170px
+	width: $wrapper
 	padding: 23px 0
 	margin-bottom: 45px
 
@@ -79,7 +79,7 @@ header:after
 	top: 60px
 	left: 0
 	height: 1px
-	min-width: 1170px
+	min-width: $wrapper
 	width: 100%
 	background-color: #fff
 	opacity: 0.3
@@ -318,7 +318,7 @@ header:after
 
 .unslider
 	position: relative
-	min-width: 1170px
+	min-width: $wrapper
 
 .unslider-arrow // next or prev
 	width: 38px
