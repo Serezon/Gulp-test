@@ -6,10 +6,10 @@
 $wrapper: 1170px
 
 .wrapper 
-	width: $wrapper
+	max-width: $wrapper
 	margin: 0 auto
 	&_extended
-		width: $wrapper + 20px
+		max-width: $wrapper + 20px
 		padding: 0 10px
 
 h3
@@ -24,16 +24,16 @@ p
 	font-family: Lato, Arial, sans-serif
 
 // Header
-header 
-	min-width: $wrapper
+.header 
+	width: 100%
 	height: 846px
 	background: url('../img/averie-woodard-111823.jpg') center 0 no-repeat
 	background-size: cover
 	color: #fff
+	overflow: hidden
 
 
 .header__contacts 
-	width: $wrapper
 	padding: 23px 0
 	margin-bottom: 45px
 
@@ -266,9 +266,16 @@ header:after
 // Gallery
 
 .gallery 
-	height: 800px
+	min-height: 800px
 	width: 100%
+	overflow: hidden
+
+.gallery__slide
+	background: url("../img/gallery-img.jpg") center 0 no-repeat
+	background-size: cover
 	position: relative
+	width: 100%
+	height: 800px
 
 .gallery__info
 	position: absolute
@@ -307,29 +314,6 @@ header:after
 
 //Some slider SHIT
 
-.gallery ul
-	width: 100%
-	height: 100%
-	li 
-		width: 100%
-		height: 100%
-		background: url(../img/gallery-img.jpg) center 0 no-repeat
-		background-size: cover
-
-.unslider
-	position: relative
-	min-width: $wrapper
-
-.unslider-arrow // next or prev
-	width: 38px
-	height: 16px
-	top: 660px
-	&.prev
-		left: 100px
-		background-image: url(../img/icons/gallery-arrow-prev.png)
-	&.next
-		right: 100px !important
-		background-image: url(../img/icons/gallery-arrow-next.png)
 
 //Channel__block
 
