@@ -202,14 +202,15 @@ $slick-opacity-not-active: 0.25 !default;
         top: 660px;
         border: none;
         background: none;
+
     }
     &-prev {
         z-index: 999;
-        left: 8.54700854700855%;
+        left: 20px;
         background-image: url(../img/icons/gallery-arrow-prev.png);
     }
     &-next {
-        right: 8.54700854700855%;
+        right: 20px;
         background-image: url(../img/icons/gallery-arrow-next.png);
     }
 }

@@ -2633,9 +2633,9 @@ td, th {
 
 .slick-prev {
   z-index: 999;
-  left: 8.54700854700855%;
+  left: 20px;
   background-image: url(../img/icons/gallery-arrow-prev.png); }
 
 .slick-next {
-  right: 8.54700854700855%;
+  right: 20px;
   background-image: url(../img/icons/gallery-arrow-next.png); }
