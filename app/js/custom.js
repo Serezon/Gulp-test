@@ -26,3 +26,21 @@ $("a[href*='#']").on("click", function(e){
         e.preventDefault();
         return false;
     });
+
+// Hamburger
+
+$('#header__menu-burger').click(function() {
+  if ( $('.header__menu-list').css('display') == 'block' ) {
+    $('.header__menu-list').css('display','none');
+    $('#header__menu-burger').css('background-image', 'url("../img/icons/icon-menu.svg")');
+  } else {
+    $('.header__menu-list').css('display','block');
+    $('#header__menu-burger').css('background-image', 'url("../img/icons/icon-cross.svg")');
+  }
+});
+
+$('.header__menu-link').click(function() {
+  $('.header__menu-list').css('display', 'none');
+  $('#header__menu-burger').css('background-image', 'url("../img/icons/icon-menu.svg")');
+});
+
