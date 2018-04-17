@@ -699,6 +699,18 @@ p {
   .our-services__text-link {
     float: right; }
   .gallery__info {
-    bottom: 200px;
-    height: 50%;
-    background-color: rgba(255, 255, 255, 0.9); } }
+    bottom: 305px;
+    height: 140px;
+    background-color: rgba(255, 255, 255, 0.9); }
+  .gallery__description {
+    width: 60%; }
+  .slick-arrow {
+    top: 52%; }
+  .blog__item_large {
+    width: 100%; }
+  .contacts__item {
+    width: 35%; }
+    .contacts__item:nth-child(2) {
+      width: 30%; }
+  .contacts__info {
+    font-size: 18px; } }
